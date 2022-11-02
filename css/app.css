@@ -1,0 +1,30 @@
+/* app cards*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.card {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    min-height: 200px;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 50px;
+    box-shadow: 0px 6px 10px #000;
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px #fa5543;
+    transform: scale(1.01);
+  }
+  .card .cardImg
+  {
+    height: 500px;
+  }
+  
+  
+  

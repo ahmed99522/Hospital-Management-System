@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+#loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nav bar*/
+#navbar {
+    background-color: #11191abb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 9999;
+  }
+.navbar{
+    background-color: rgb(168, 66, 18);
+}
+.nav-link{
+    color: #b1afaf !important;
+}
+.homeLink{
+    color: #fa5543 !important;
+}
+nav .navbar-nav li a{
+    position: relative;
+}
+nav .navbar-nav li a::after{
+    content: "";
+    position: absolute;
+    left: 5px;
+    width: 0;
+    height: 1px;
+    background-color: #fa5543;
+    top: 100%;
+    transition: all 0.5s;
+}
+
+ nav .navbar-nav li a:hover::after{
+    width: 2.5rem;
+}
+.button {
+    background-color: #fa5543;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+
+ /* webControl */
+
+#webControl{
+    background-image: url(../images/bckg-4.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.web-control-ingo{
+    color: #DEDEDE;
+    font-family:Raleway, sans-serif;
+}
+.web-header h2{
+    font-size: 2.5rem;
+    width: 60%;
+    font-weight: 600;
+}
+.web-control-ingo p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.sec2Icons .fa-gem ,.fa-atom,.fa-infinity{
+    color: #f35d4b;
+    font-size: 60px;
+}
+
+#Beautiful h3{
+    font-family:Raleway, sans-serif;
+    font-size: 1.7rem;
+    color: #f35d4b;
+}
+#Beautiful h3 a{
+    text-decoration: none;
+    color: #f35d4b;
+}
+
+.test2,.test,.test3{
+    position: relative;
+}
+
+#Beautiful .test2::before{
+    content:"";
+    position:absolute;
+    width: 7rem;
+    height: 1px;
+    background-color: #f35d4b;
+    bottom: 0;
+    left:26%;
+    transition: all 1s;
+    
+}
+#Beautiful .test::before{
+    content:"";
+    position:absolute;
+    width: 10rem;
+    height: 1px;
+    background-color: #f35d4b;
+    bottom: 0;
+    left:21%;
+    transition: all 1s;
+    
+}
+#Beautiful .test3::before{
+    content:"";
+    position:absolute;
+    width: 10rem;
+    height: 1px;
+    background-color: #f35d4b;
+    bottom: 0;
+    left:27%;
+    transition: all 1s;
+    
+}
+
+/* message sec*/
+#message{
+    background-color: #F25A47;
+    color: #d6d0cf;
+    font-family:Raleway, sans-serif;
+}
+.container-message{
+    background-color: #C24839;
+    
+}
+/* at your service */
+
+.service{
+    position: relative;
+}
+.weekBorder{
+    color: #fa5543;
+    border: #cacaca solid 1px;
+}
+.serviceInfo h2{
+    color: #707070;
+    font-size: 2.3rem;
+    font-family:Raleway, sans-serif;
+    font-weight: 600;
+
+}
+
+/*The style of the div number 9*/
+#D9
+{
+   width:90%;
+   margin: 5%;
+   background:  #f5f5f5;
+   display:flex;
+   justify-content:center;
+}
+#D9 p a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #f35d4b;
+    font-size: large;
+}
+/*The style of the 4divs in the div number 9*/
+.team
+{
+   padding:0 8% 0 0;
+}
+
+.team p
+{
+   color: black;
+   padding-bottom: 10%;
+   border-bottom: 2px solid orangered;
+}
+.team h5
+{
+    color: #fa5543;
+}
+.team  .teamImg
+{
+    width: 200px;
+    height: 250px;
+}
+
+/*The style of the last div*/
+.D8{
+    /* background-image: url("images/pexels-photo-59.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    color:black;
+    }
+     /*The style of the 3divs included by the last div*/
+.last{display: inline-block;
+    padding: 50px 90px 50px 100px;
+    text-align: left;}
+.last h4{
+    color:orangered;
+}
+.text{
+    border: 1px solid lightcyan;
+    background:none;
+    }
+    
+
+/* ********************** */
+.contentDiv
+{
+    display: flex;
+    background-color: #11191abb;
+}
+.contentDiv article
+{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contentDiv img
+{
+    position: relative;
+    left: 300px;
+    width: 500px;
+    opacity: 90%;
+    border-radius: 50px;
+    border: 2px #11191abb outset;
+    transform: rotate(10deg);
+    box-shadow:  5px 10px #fa5543;
+}
+.website
+{
+    background-image: url(../images/bckg-4.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #DEDEDE;
+    position: relative;
+    top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family:Raleway, sans-serif;
+}
+.website a
+{
+    color: #fa5543c9;
+    text-decoration: none;
+}
